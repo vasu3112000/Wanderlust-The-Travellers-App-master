@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- "Mark Favorite", should appear as action button if possible -->
+    <item
+        android:id="@+id/Profile"
+        android:icon="@drawable/account"
+        android:title="@string/action_profile"
+        app:showAsAction="never" />
+
+    <!-- Settings, should always be in the overflow -->
+    <item
+        android:id="@+id/InviteLink"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="@string/action_invitelink"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/voice"
+        android:icon="@drawable/mike"
+        android:title="@string/action_voice"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/Compass"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="@string/action_compass"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/StepCount"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="@string/action_step"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/Share"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="@string/action_share"
+        app:showAsAction="never" />
+
+
+</menu>
